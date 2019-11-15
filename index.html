@@ -1,117 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-  	<!-- Onsignal Code -->
-	<link rel="manifest" href="/manifest.json">
-	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
-	<script>
-		var OneSignal = window.OneSignal || [];
-		OneSignal.push(["init", {
-			appId: "f14bf613-5b14-4617-8e6b-713e75ef10b0",
-			autoRegister: false,
-			notifyButton: {
-				enable: true /* Set to false to hide */
-		  	}
-
-
-		  // Notification Bell
-		  /* Your other init options here */
-			notifyButton: {
-			    enable: true, /* Required to use the notify button */
-			    size: 'medium', /* One of 'small', 'medium', or 'large' */
-			    theme: 'default', /* One of 'default' (red-white) or 'inverse" (white-red) */
-			    position: 'bottom-right', /* Either 'bottom-left' or 'bottom-right' */
-			    offset: {
-			        bottom: '0px',
-			        left: '0px', /* Only applied if bottom-left */
-			        right: '0px' /* Only applied if bottom-right */
-			    },
-			    prenotify: true, /* Show an icon with 1 unread message for first-time site visitors */
-			    showCredit: false, /* Hide the OneSignal logo */
-			    text: {
-			        'tip.state.unsubscribed': 'Subscribe to notifications',
-			        'tip.state.subscribed': "You're subscribed to notifications",
-			        'tip.state.blocked': "You've blocked notifications",
-			        'message.prenotify': 'Click to subscribe to notifications',
-			        'message.action.subscribed': "Thanks for subscribing!",
-			        'message.action.resubscribed': "You're subscribed to notifications",
-			        'message.action.unsubscribed': "You won't receive notifications again",
-			        'dialog.main.title': 'Manage Site Notifications',
-			        'dialog.main.button.subscribe': 'SUBSCRIBE',
-			        'dialog.main.button.unsubscribe': 'UNSUBSCRIBE',
-			        'dialog.blocked.title': 'Unblock Notifications',
-			        'dialog.blocked.message': "Follow these instructions to allow notifications:"
-			    }
-			}
-		}]);
-	</script>
-	<!-- Onesignal Code end -->
-    <!-- Required meta tags always come first -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Ranga Nayakulu Modi</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Rancho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+  
 
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel | Raleway:600" rel="stylesheet">
-
-    <link href="/images/favicon.ico" rel="favicon">
+    <title>Modi Ranga Nayakulu | Ruby | Ruby on Rails | PostgreSQL | MySQL | Elastic Search | RubyGems</title>
   </head>
-  <body class="container">
-    <div class="main">
-	    <center>
-	    	<div class="col-md-12">
-	    		<div class="row">
-	    			<div class="col-md-8 name">
-	    				<p><span>Hello, I'm</span></p>
-	    				<h2>Ranga Nayakulu <br>Modi</h2>
-	    			</div>
-	    			<div class="col-md-4">
-    					<ul class="social">
-							<li class="github"><a href="https://github.com/ranganayakulu" target="_blank"><span class="fa fa-github-square fa-3x"></span></a></li>
-							<li class="linkedin"><a href="www.linkedin.com/in/ranganayakulumodi" target="_blank"><span class="fa fa-linkedin-square fa-3x"></span></a></li>							
-							<li class="stackoverflow"><a href="http://stackoverflow.com/users/3848768/modi-ranga-nayakulu" target="_blank"><span class="fa fa-stack-overflow fa-3x"></span></a></li>
-							<li class="facebook"><a href="https://www.facebook.com/rnmodi562" target="_blank"><span class="fa fa-facebook-square fa-3x"></span></a></li>
-							<li class="skype"><a href="rnmodi562?call" target="_blank"><span class="fa fa-skype fa-3x"></span></a></li>
-							<li class="twitter"><a href="https://twitter.com/RangaNayakulu_M" target="_blank"><span class="fa fa-twitter-square fa-3x"></span></a></li>
-						</ul>
-						<p class="social"><strong>Mail me at: &nbsp;</strong> <a href="mailto:rnmodi562@gmail.com"><span class="fa fa-envelope fa-3x"></span></a></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="clearfix"></div>		
-		</center>
-	</div>
-
-	<div class="aboutme">
-		<h3><span>About Me</span></h3>
-		<p>I'm Ranga Nayakulu Modi. My friends call me "modi". Some people call me "Ranga".</p>
-
-		<p>As a passion in software engineering I completed my bachelor's degree in <b>Computer Science and Engineering</b> in 2014 and presently working as <b>Ruby on Rails Developer</b> with Xportsoft Technologies Pvt. Ltd.</p>
-
-		<p>When I am offline, I will be checking for new technologies, cooking, playing PC games, watching news, answering Quora questions and doing some research.</p>
-	</div>
-
-
-	<div class="projects">
-		<h3><span>Projects</span></h3>
-		<div class="col-md-12">
-			<div class="row work">
-				<div class="col-md-3"><img src="images/logo.gif" alt="Gatorhousing.com"></div>
-				<div class="col-md-3"><strong>Biryani9</strong><br><span>ongoing</span></div>
-				<div class="col-md-3"><strong>ElectionBallot.in</strong><br><span>ongoing</span></div>
-				<div class="col-md-3"><strong>HolyTravel.in</strong><br><span>ongoing</span></div>
-			</div>
-		</div>
-	</div>
-	<!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  <body>
+    <!-- <div class="container header-title-logo-section">
+      <h1 class="header-title-logo">Ranga Nayakulu Modi</h1>
+      <h3>Senior Software Engineer @ Saranyu Technologies Pvt. Ltd.</h3>
+    </div> -->
+    <div class="container">
+      <div class="about-wrapper">
+        <h1 class="title1 animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Hello,</h1>
+        <h2 class="title2 animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Is it me you're looking for?</h2>
+        <p class="description animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">I’m a Bengaluru(INDIA) based Ruby on Rails Developer currently working at Saranyu Technologies Pvt. Ltd. <br>
+          <br> I've worked with XportSoft Technologies Pvt. Ltd. <br>
+          <br> New experiences and challenges are my thing. <br>
+          <br> Open to work for Open-source softwares. <br> 
+          <br> If you have any cool projects or opportunities, get in touch!
+        </p>
+        <div class="about-tables">
+          <div class="about-table left">
+            <h3 class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> Education </h3>
+            <ul> 
+              <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> B.Tech CSE 71.29% </li>
+              <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> Intermediate(+2)  MPC 83.4% </li>
+              <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> SSC 68.66%</li>
+            </ul>
+          </div>
+          
+          <div class="about-table right">
+            <h3 class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> Experiences </h3>
+            <ul>
+              <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> Saranyu Technologies, Bengaluru / SSE(RoR Developer) / NOV 2018 - PRESENT </li>
+              <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> Saranyu Techologies, Bengaluru / SE(RoR Developer) / JAN 2017 - NOV 2018 </li>
+              <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> XportSoft Technologies, Hyderabad / Associate Engineer / JUN 2014 - JAN 2017 </li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-links">
+          <ul>
+            <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> <a href="https://www.linkedin.com/in/modirn" target="_blank"> LinkedIn </a> </li>
+            <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> <a href="https://twitter.com/modi_rn" target="_blank"> Twitter </a> </li>
+            <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> <a href="https://stackoverflow.com/users/3848768/modi-ranga-nayakulu" target="_blank"> stackoverflow </a> </li>
+            <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> <a href="https://www.codewars.com/users/modirn" target="_blank"> codewars </a> </li>
+            <li class="animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> <a href="https://github.com/ranganayakulu" target="_blank"> GitHub </a> </li>
+          </ul>
+        </div>
+        <p class="greeting animated" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"> Reach me at <a href="mailto:rnmodi562@gmail.com" target="_top"> eMail </a>  </p>
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
